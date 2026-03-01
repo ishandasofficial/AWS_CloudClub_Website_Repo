@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Cloud Club - Techno India University</title>
+    <meta name="description"
+        content="The official portfolio for the first AWS Cloud Club in West Bengal, located at Techno India University, Saltlake.">
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="AWS_Style.css">
+</head>
+
+<body>
+
+    <!-- Dynamic Background Elements -->
+    <div class="glow-orb top-left"></div>
+    <div class="glow-orb bottom-right"></div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <span class="aws-color">AWS</span> Cloud Club <span class="tiu-tag">TIU</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#team">Core Team</a>
+                <a href="#stats">Stats</a>
+            </nav>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container hero-content hidden">
+            <div class="badge">🚀 The First AWS Cloud Club in West Bengal</div>
+            <h1 class="hero-title">Empowering the <br><span class="gradient-text">Cloud Journey</span></h1>
+            <p class="hero-subtitle">Based at Techno India University, Sector-5, Salt Lake. We are a community of
+                passionate developers exploring the infinite possibilities of AWS.</p>
+            <div class="hero-cta">
+                <a href="#about" class="btn btn-primary">Discover More</a>
+                <a href="#team" class="btn btn-secondary">Meet the Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container hidden">
+            <div class="section-header">
+                <h2 class="section-title">Who We Are</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card glass-panel">
+                    <h3>Our Origin</h3>
+                    <p>We are incredibly proud to be the <strong>First AWS Cloud Club in West Bengal</strong>. Located
+                        in the tech hub of Bidhannagar, Salt Lake (Sector-5) at Techno India University, we bring
+                        cutting-edge cloud computing resources to ambitious students.</p>
+                </div>
+                <div class="about-card glass-panel">
+                    <h3>Community of 700</h3>
+                    <p>What started as a small initiative has blossomed into a thriving community. With <strong>Total
+                            700 Members</strong>, we regularly host workshops, hackathons, and study jams to build the
+                        future of cloud computing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+        <div class="container hidden">
+            <div class="stats-grid">
+                <div class="stat-item glass-panel">
+                    <span class="stat-number" data-target="700">0</span>
+                    <span class="stat-label">Total Members</span>
+                </div>
+                <div class="stat-item glass-panel">
+                    <span class="stat-number" data-target="1">0</span>
+                    <span class="stat-label">First in West Bengal</span>
+                </div>
+                <div class="stat-item glass-panel">
+                    <span class="stat-number" data-target="6">0</span>
+                    <span class="stat-label">Core Leads</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+        <div class="container hidden">
+            <div class="section-header center">
+                <h2 class="section-title">The Core Leads</h2>
+                <p class="section-subtitle">Meet the visionary team driving our community forward.</p>
+            </div>
+            <div class="team-grid">
+                <!-- Main Leads -->
+                <div class="team-card" onclick="this.classList.toggle('flipped')">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-glow"></div>
+                            <div class="team-avatar">
+                                <img src="images/joyjit.jpg" alt="Joyjit"
+                                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="avatar-fallback" style="display:none;">J</div>
+                            </div>
+                            <h3>Joyjit</h3>
+                            <p class="role main-role">Main Lead</p>
+                            <span class="click-hint">Tap for Connection</span>
+                        </div>
+                        <div class="card-back">
+                            <h3>Joyjit</h3>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/joyjit-das-b0a4b7326/" target="_blank"
+                                    class="social-btn linkedin">LinkedIn</a>
+                                <a href="mailto:joyjit@example.com" class="social-btn email">Email</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card" onclick="this.classList.toggle('flipped')">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-glow"></div>
+                            <div class="team-avatar">
+                                <img src="images/sarab.jpg" alt="Sarab"
+                                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="avatar-fallback" style="display:none;">S</div>
+                            </div>
+                            <h3>Sarab</h3>
+                            <p class="role main-role">Main Lead</p>
+                            <span class="click-hint">Tap for Connection</span>
+                        </div>
+                        <div class="card-back">
+                            <h3>Sarab</h3>
+                            <div class="social-links">
+                                <a href="mailto:sarab@example.com" class="social-btn email">Email</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Engagement Leads -->
+                <div class="team-card" onclick="this.classList.toggle('flipped')">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-glow"></div>
+                            <div class="team-avatar">
+                                <img src="images/rupam.jpg" alt="Rupam"
+                                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="avatar-fallback" style="display:none;">R</div>
+                            </div>
+                            <h3>Rupam</h3>
+                            <p class="role engage-role">Marketing & Social Media Lead</p>
+                            <span class="click-hint">Tap for Connection</span>
+                        </div>
+                        <div class="card-back">
+                            <h3>Rupam</h3>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/rupam-gongopadhyay-45116337a/" target="_blank"
+                                    class="social-btn linkedin">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card" onclick="this.classList.toggle('flipped')">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-glow"></div>
+                            <div class="team-avatar">
+                                <img src="images/subham.jpg" alt="Subham"
+                                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="avatar-fallback" style="display:none;">S</div>
+                            </div>
+                            <h3>Subham</h3>
+                            <p class="role engage-role">Engagement & Advertising Lead</p>
+                            <span class="click-hint">Tap for Connection</span>
+                        </div>
+                        <div class="card-back">
+                            <h3>Subham</h3>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/subham-saha-b46067311/" target="_blank"
+                                    class="social-btn linkedin">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud Leads -->
+                <div class="team-card" onclick="this.classList.toggle('flipped')">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-glow"></div>
+                            <div class="team-avatar">
+                                <img src="images/pritthwish.jpg" alt="Pritthwish"
+                                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="avatar-fallback" style="display:none;">P</div>
+                            </div>
+                            <h3>Pritthwish</h3>
+                            <p class="role cloud-role">Cloud Lead</p>
+                            <span class="click-hint">Tap for Connection</span>
+                        </div>
+                        <div class="card-back">
+                            <h3>Pritthwish</h3>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/pritthwish-nandy/" target="_blank"
+                                    class="social-btn linkedin">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card" onclick="this.classList.toggle('flipped')">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-glow"></div>
+                            <div class="team-avatar">
+                                <img src="images/sambaran.jpg" alt="Sambaran"
+                                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="avatar-fallback" style="display:none;">S</div>
+                            </div>
+                            <h3>Sambaran</h3>
+                            <p class="role cloud-role">Cloud Lead</p>
+                            <span class="click-hint">Tap for Connection</span>
+                        </div>
+                        <div class="card-back">
+                            <h3>Sambaran</h3>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/sambarandas01/" target="_blank"
+                                    class="social-btn linkedin">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="aws-color">AWS</span> Cloud Club <span>TIU</span>
+                </div>
+                <p>Techno India University • Bidhannagar, Saltlake, Sector-5 • West Bengal</p>
+                <div class="footer-legal">
+                    &copy; 2026 AWS Cloud Club TIU. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="AWS_Website.js"></script>
+</body>
+
+</html>
